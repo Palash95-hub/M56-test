@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 150;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(255, 255, 251);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 9%;
+  box-shadow: 5px 5px rgb(165, 165, 165);
+}
+
+.heading {
+  text-align: center;
+  padding: 15px;
+  font-size: larger;
+}
+
+.img {
+  text-align: center;
+}
+
+img {
+  width: 270px;
+  height: 80px;
+}
+
+label {
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input {
+  margin-left: 5px;
+  text-align: center;
+}
+
+.card-no,
+.expiry,
+.cv-code,
+.owner {
+  padding: 5px;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background: rgb(63, 235, 63);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: crimson;
+}
+.success {
+  color: rgb(26, 218, 26);
+}
